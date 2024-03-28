@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Amounts() {
   return (
-    <div className='w-2/12 py-1 pb-3 h-screen flex flex-col justify-between right-4 z-300 px-2 bg-[#F7F8FA]'>
+    <div className='md:w-2/12 w-full py-1 pb-3 h-auto md:h-screen flex flex-col justify-between right-4 z-300 px-2 bg-[#F7F8FA]'>
      <div className="top-amout">
      <div className="bg-white">
         <div className="table-header  border-dashed border-b-[4px] gap-4 flex py-3">
@@ -81,9 +81,9 @@ export default function Amounts() {
       </div>
       </div>
      </div>
-     <div className="print gap-3 flex justify-between text-xs">
+     <div className="print gap-3 flex justify-between items-center text-xs">
       <p className='flex  px-3 bg-white border-1 border-gray-100 items-center'><PrinterIcon className='text-xs p-1'/> Print</p>
-      <p className='bg-[#1AA19D] px-3 flex items-center'><Upload className='text-xs p-1'/> Download</p>
+      <p className='bg-[#1AA19D] px-3 mt-[4rem] md:mt-[0rem] flex items-center'><Upload className='text-xs p-1'/> Download</p>
      </div>
     </div>
   )

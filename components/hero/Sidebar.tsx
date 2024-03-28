@@ -26,7 +26,7 @@ export default function SideBar() {
     }
   ]
   return (
-    <div className="flex z-100  bg-white h-screen flex-col justify-between w-2/12">
+    <div className="flex z-100 text-sm px-4  bg-white h-2/3 md:h-screen flex-col justify-between  w-full  md:w-2/12">
         <div className="upper-sidebar flex  flex-col gap-5">
           {
             sideLinks.map((link,i)=>{

@@ -5,7 +5,7 @@ import Amounts from './hero/Amounts'
 
 export default function Hero() {
   return (
-    <div className='flex mt-[100px] z-100 justoify-center relative gap-2'>
+    <div className='flex flex-col md:flex-row  mt-[100px] z-100 justoify-center relative gap-2'>
         <SideBar/>
         <Main/>
         <Amounts/>
