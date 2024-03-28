@@ -43,7 +43,7 @@ export default function Main() {
             <button className='bg-[#642989] px-3 py-2 rounded-full'>Kitchen</button>
             </div>
           </div>
-          <div className="card md:w-1/3 w-full inline-flex flex-col  text-sm rounded-md px-4  gap-4 py-4 bg-[#E8D4ED]">
+          <div className="card md:w-1/3 w-full inline-flex flex-col  text-sm rounded-md px-4  gap-4 py-4 bg-[#FFE2DE]">
             <div className="top-card justify-between flex gap-3">
               <div className="flex flex-col gap-4">
               <p>Order #F0027</p>
@@ -54,7 +54,7 @@ export default function Main() {
             
             <div className="bottom-card flex gap-6 text-xs justify-between items-center">
             <p className="time">2 min ago</p>
-            <button className='bg-[#642989] px-3 py-2 rounded-full'>Kitchen</button>
+            <button className='bg-[#EEC0A7] px-3 py-2 rounded-full'>Kitchen</button>
             </div>
           </div>
           <div className="card md:w-1/3 w-full inline-flex flex-col  text-sm rounded-md px-4  gap-4 py-4 bg-[#C1EAE4]">
