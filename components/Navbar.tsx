@@ -170,7 +170,7 @@ export default function Navbar() {
           {
             sideLinks.map((link,i)=>{
               return(
-                <h1 className='flex gap-3'><span>{link.icon}</span>{link.title}</h1>
+                <h1 key={i} className='flex gap-3'><span>{link.icon}</span>{link.title}</h1>
               )
             })
           }
